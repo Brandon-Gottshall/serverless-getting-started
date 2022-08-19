@@ -1,0 +1,8 @@
+
+dashboard: https://app.serverless.com/blgottshall/apps/aws-node-http-api-project/aws-node-http-api-project/dev/us-east-1
+endpoints:
+  POST - https://r7mtsl9mt0.execute-api.us-east-1.amazonaws.com/
+  GET - https://r7mtsl9mt0.execute-api.us-east-1.amazonaws.com/
+functions:
+  createCustomer: aws-node-http-api-project-dev-createCustomer (227 kB)
+  hello: aws-node-http-api-project-dev-hello (227 kB)

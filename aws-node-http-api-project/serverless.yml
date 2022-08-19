@@ -32,6 +32,13 @@ functions:
           path: / # https://r7mtsl9mt0.execute-api.us-east-1.amazonaws.com/
           method: post
 
+  getCustomers:
+    handler: getCustomers.getCustomers
+    events:
+      - httpApi:
+          path: /customers
+          method: get
+
   hello:
     handler: handler.hello # fileName.functionName
     events:
